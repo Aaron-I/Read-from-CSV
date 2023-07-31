@@ -14,10 +14,11 @@ Print the length of the rows and columns
 ### Step 5:
 End the program
 ## PROGRAM:
+```
 # Write a program to read a csv file
 # Developed by : AARON I
 # Reference no : 23002289
-```
+
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -29,7 +30,7 @@ print("Rows",len(df.axes[0]))
 print("Columns",len(df.axes[1]))
 ```
 ## OUTPUT:
-![output](/Screenshot%202023-07-26%20150205.png)
+![output](/Screenshot.png)
 ![output](/csv.png)
 ## RESULT:
 Thus the program is written to read a csv file.
